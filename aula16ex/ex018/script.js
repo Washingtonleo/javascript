@@ -1,6 +1,6 @@
-let num = document.querySelector('input#fnum')
-let lista = document.querySelector('Select#flista')
-let res = document.querySelector('div#res')
+let num = document.querySelector('input#fnum')//
+let lista = document.querySelector('Select#flista')//
+let res = document.querySelector('div#res')//
 
 let valores = []
 
@@ -31,7 +31,7 @@ function adicionar(){
         window.alert('Valor inválido ou já encontrado na lista.')
     }
     num.value = '' //o input ficará vazio
-    num.focus() // o foco fica no input
+    num.focus() // o foco fica no input (barrinha piscando)
 }
 
 function finalizar(){
